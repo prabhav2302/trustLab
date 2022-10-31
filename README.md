@@ -19,3 +19,6 @@ My approach to the problem is that I would iterate through each url in the commo
 ## Step 3 - Enhancing Model
 
 After I ran the program, I noticed I was getting the URLs to a lot of irrelevant sites. One of the URLs for example just contained content about sports but had a link to COVID news and a link to Finance news and therefore it was getting included in my output URL list. I then realized that instead of searching the content of the whole HTML Page, which includes irrelevant <a> (hyperlink) elements. I just want the text content of the HTML page. Not the hrefs, and etc. In order to just extract the text part of the page I used the BeautifulSoup python library (a HTML processing library) which goes in and extracts just the text part of the HTML. After I added this modification, the program became much much slower but was giving much better results.
+
+
+If I was to do this task again, I would definetely try to make more adjustments as I still feel the program can produce more accurate results in a more efficient manner. I would perhaps use HashMaps instead of the lists I currently have to reduce look up time. I think I could also use regex for better processing. However, I ran out of time and have submitted what I could in the time frame. I used Dec 2020 dataset.
